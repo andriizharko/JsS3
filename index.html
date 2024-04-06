@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="c">
+        <img id="github-logo" src="./img/github-mark-white.png">
+    </div>
+    <h1 class="c mt-30">Repo Reviews</h1>
+    <div>
+        <form class="form">
+            <label for="name">Repository Name</label>
+            <input type="text" name="name">
+            <label for="desc">Description</label>
+            <textarea name="desc"></textarea>
+            <label for="url">URL</label>
+            <input type="text" name="url">
+            <label for="rating">Rating</label>
+            <input type="text" name="rating">
+            <button class="btn">Submit</button>
+        </form>
+        <div class="container mt-30">
+            <ul id="errorList" class="hide"></ul>
+            <div id="repoList"></div>
+        </div>
+    </div>
+</body>
+
+</html>
