@@ -19,7 +19,6 @@ const clearErrors = () => {
 };
 
 const displayErrors = () => {
-    clearErrors();
     errors.forEach((error) => {
         const li = cE('li');
         cT(li, error);
