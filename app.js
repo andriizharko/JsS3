@@ -88,7 +88,7 @@ const isValidRepo = (repo) => {
 form.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    clearErrors();
+    // clearErrors();
 
     const name = $('[name="name"]').value;
     const desc = $('[name="desc"]').value;
